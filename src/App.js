@@ -8,7 +8,7 @@ import Users from './pages/Users';
 import Event from './pages/Event';
 import Movie from './pages/Movie';
 import Comming from './pages/Comming';
-
+import SearchDetail from './pages/SearchDetail';
 
 
 
@@ -23,6 +23,7 @@ function App() {
 			<Route path="/comming/:id" element={<Comming />}  />
 			<Route path="/users" element={<Users />}  />
 			<Route path="/event" element={<Event />}  />
+			<Route path="/search/:movieId" element={<SearchDetail />}  />
 		</Routes>
 		<Footer />
     </div>
