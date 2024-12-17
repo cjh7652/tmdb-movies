@@ -76,9 +76,6 @@ const UpComing = () => {
                       </div>
                     </Link>
                   </SwiperSlide>
-               
-                
-                
               ))
               }
             </Swiper>
