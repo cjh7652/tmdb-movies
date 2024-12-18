@@ -38,24 +38,7 @@ const Search = () => {
     setMode('detail');
     setSelecteMovieID(movieID);
 
-   /*  setDetailInfo({});
-    axios.get(`https://api.themoviedb.org/3/movie/${movieID}?api_key=546c72b99cf64514c2c03c7ef473011b&language=ko`)
-    .then((response)=>{
-      //console.log(response);
-      setDetailInfo(response.data)
-
-    })
-    .catch((error)=>{
-      console.error('Error fetching movie details: ', error)
-    })
-    
-    axios.get(`https://api.themoviedb.org/3/movie/${movieID}/credits?api_key=546c72b99cf64514c2c03c7ef473011b&language=ko`)
-    .then((response)=>{
-      console.log(response);
-      setActors(response.data.cast)
-    }).catch((error)=>{
-      console.error('Error fetching movie details: ', error)
-    }) */
+   
   }
 
   return (
