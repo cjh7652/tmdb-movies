@@ -340,6 +340,48 @@ $desktop-min:1440px;
 			}
 		}
 	}
+	.movies{
+		padding: 50px;
+		h1{text-align: center; font-size: 24px; margin-bottom: 20px; color: #666}
+		.moviesMovie{
+			display: flex;
+			border: 1px solid #ddd;
+			padding: 5px;
+			margin-bottom: 10px;
+			justify-content: space-between;
+			align-items: center;
+			.movie-title{
+				font-size: 14px;
+			}
+			.movie-year{font-size: 12px; color: #f00;}
+			.removeBtn{
+				button{
+					background: #b51212;
+					color: #fff;
+					border: none;
+					padding: 5px 20px;
+				}
+			}
+		}
+		form{
+			width: 100%;
+			
+			input{width: 100%; margin-bottom: 10px; padding: 10px;}
+			.error{
+				font-size: 12px;
+				color: #f00;
+			}
+			button{
+				width: 100%;
+				padding: 5px 20px;
+				background: #666;
+				color: #fff;
+				border: none;
+				border-radius: 3px;
+				margin-bottom: 30px;
+			}
+		}
+	}
 	.coming{
 		margin-top: 30px;
 		.swiper-navigation{
@@ -398,6 +440,23 @@ $desktop-min:1440px;
 			text-align: center;
 			p{
 				color: #fff;
+			}
+		}
+	}
+	.quickBtn{
+		position: fixed;
+		right: 20px;
+		bottom: 14%;
+		z-index: 100;
+		.quick-top{
+			width: 56px;
+			height: 56px;
+			border-radius: 50%;
+			background: #022426;
+			cursor: pointer;
+			.upArrowBtn{
+				color: #fff;
+				font-size: 35px;
 			}
 		}
 	}

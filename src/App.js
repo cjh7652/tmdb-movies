@@ -9,6 +9,7 @@ import Event from './pages/Event';
 import Movie from './pages/Movie';
 import Comming from './pages/Comming';
 import SearchDetail from './pages/SearchDetail';
+import QuickBtn from './components/QuickBtn';
 
 
 
@@ -26,6 +27,7 @@ function App() {
 			<Route path="/search/:movieId" element={<SearchDetail />}  />
 		</Routes>
 		<Footer />
+		<QuickBtn />
     </div>
   );
 }
