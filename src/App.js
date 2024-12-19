@@ -10,6 +10,7 @@ import Movie from './pages/Movie';
 import Comming from './pages/Comming';
 import SearchDetail from './pages/SearchDetail';
 import QuickBtn from './components/QuickBtn';
+import User from './components/User';
 
 
 
@@ -23,6 +24,7 @@ function App() {
 			<Route path="/movies/:id" element={<Movie />}  />
 			<Route path="/comming/:id" element={<Comming />}  />
 			<Route path="/users" element={<Users />}  />
+			<Route path="/users/:id" element={<User />}  />
 			<Route path="/event" element={<Event />}  />
 			<Route path="/search/:movieId" element={<SearchDetail />}  />
 		</Routes>

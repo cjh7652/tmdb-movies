@@ -171,6 +171,16 @@ $desktop-min:1440px;
 			}
 		}
 	}
+	.modal{
+		width: 500px;
+		height: 500px;
+		background: #fff;
+		position: absolute;
+		bottom: 50px;
+		right: 50px;
+		padding: 30px;
+		box-shadow: 5px 5px 10px #000;
+	}
 	.mainContainer{
 		width: 100%;
 		.mainMovie{
